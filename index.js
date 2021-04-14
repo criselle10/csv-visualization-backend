@@ -21,5 +21,3 @@ app.use('/api/cars', cors(corsOptions), carRoutes)
 app.listen(port, () => {
     console.log(`API is now online on port ${ port }`)
 })
-
-console.log()
